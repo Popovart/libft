@@ -3,21 +3,20 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlen.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dmitrypopov <dmitrypopov@student.42.fr>    +#+  +:+       +#+        */
+/*   By: dmitrii <dmitrii@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/20 15:25:26 by dmitrypopov       #+#    #+#             */
-/*   Updated: 2024/08/20 15:26:38 by dmitrypopov      ###   ########.fr       */
+/*   Updated: 2024/09/21 18:20:55 by dmitrii          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_strlen(char *str)
+int	ft_strlen(const char *str)
 {
 	unsigned int	i;
 
 	i = 0;
-	while (*str)
+	while (str[i])
 	{
-		str++;
 		i++;
 	}
 	return (i);
