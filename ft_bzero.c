@@ -6,7 +6,7 @@
 /*   By: dmitrii <dmitrii@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/21 16:57:33 by dmitrii           #+#    #+#             */
-/*   Updated: 2024/09/21 18:17:03 by dmitrii          ###   ########.fr       */
+/*   Updated: 2024/09/23 16:40:13 by dmitrii          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ void	ft_bzero(void *s, size_t n)
 	i = 0;
 	while (i < n)
 	{
-		start_ptr[i] = '\0';
+		start_ptr[i] = 0;
 		i++;
 	}
 }
