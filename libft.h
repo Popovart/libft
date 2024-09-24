@@ -6,7 +6,7 @@
 /*   By: dmitrii <dmitrii@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/19 08:00:27 by dmitrii           #+#    #+#             */
-/*   Updated: 2024/09/23 16:51:48 by dmitrii          ###   ########.fr       */
+/*   Updated: 2024/09/24 10:43:21 by dmitrii          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,5 +37,6 @@ char	*ft_strrchr(const char *s, int c);
 char	*strdup(const char *s);
 int		ft_tolower(int c);
 int		ft_toupper(int c);
+char	*ft_substr(char const *s, unsigned int start, size_t len);
 
 #endif
