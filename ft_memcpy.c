@@ -6,9 +6,11 @@
 /*   By: dmitrii <dmitrii@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/21 17:20:56 by dmitrii           #+#    #+#             */
-/*   Updated: 2024/09/21 18:17:19 by dmitrii          ###   ########.fr       */
+/*   Updated: 2024/09/24 15:55:07 by dmitrii          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 void	*ft_memcpy(void *dest, const void *src, size_t n)
 {

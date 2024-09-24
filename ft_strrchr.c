@@ -6,9 +6,11 @@
 /*   By: dmitrii <dmitrii@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/23 15:21:09 by dmitrii           #+#    #+#             */
-/*   Updated: 2024/09/23 16:18:13 by dmitrii          ###   ########.fr       */
+/*   Updated: 2024/09/24 15:58:11 by dmitrii          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 char	*ft_strrchr(const char *s, int c)
 {

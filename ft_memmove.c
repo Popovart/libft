@@ -6,9 +6,11 @@
 /*   By: dmitrii <dmitrii@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/21 17:26:06 by dmitrii           #+#    #+#             */
-/*   Updated: 2024/09/21 18:19:32 by dmitrii          ###   ########.fr       */
+/*   Updated: 2024/09/24 15:55:12 by dmitrii          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 // size_t is unsigned type,when it becomes
 // less than zero it sets to size_t max value

@@ -6,9 +6,11 @@
 /*   By: dmitrii <dmitrii@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/21 16:57:33 by dmitrii           #+#    #+#             */
-/*   Updated: 2024/09/23 16:40:13 by dmitrii          ###   ########.fr       */
+/*   Updated: 2024/09/24 15:53:24 by dmitrii          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 void	ft_bzero(void *s, size_t n)
 {

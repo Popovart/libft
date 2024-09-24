@@ -6,11 +6,11 @@
 /*   By: dmitrii <dmitrii@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/23 16:29:13 by dmitrii           #+#    #+#             */
-/*   Updated: 2024/09/23 16:45:23 by dmitrii          ###   ########.fr       */
+/*   Updated: 2024/09/24 15:53:32 by dmitrii          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "stdlib.h"
+#include "libft.h"
 
 void	*ft_calloc(size_t nmemb, size_t size)
 {

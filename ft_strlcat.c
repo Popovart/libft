@@ -6,9 +6,11 @@
 /*   By: dmitrii <dmitrii@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/23 14:34:12 by dmitrii           #+#    #+#             */
-/*   Updated: 2024/09/23 16:18:33 by dmitrii          ###   ########.fr       */
+/*   Updated: 2024/09/24 15:54:14 by dmitrii          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 size_t	ft_strlcat(char *dst, const char *src, size_t dsize)
 {

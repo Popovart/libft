@@ -6,9 +6,11 @@
 /*   By: dmitrii <dmitrii@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/21 17:52:19 by dmitrii           #+#    #+#             */
-/*   Updated: 2024/09/21 18:24:37 by dmitrii          ###   ########.fr       */
+/*   Updated: 2024/09/24 15:54:19 by dmitrii          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 size_t	strlcpy(char *dst, const char *src, size_t dsize)
 {
