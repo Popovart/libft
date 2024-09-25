@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_split.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dmitrii <dmitrii@student.42.fr>            +#+  +:+       +#+        */
+/*   By: dmitrypopov <dmitrypopov@student.42.fr>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/24 13:28:17 by dmitrypopov       #+#    #+#             */
-/*   Updated: 2024/09/24 16:46:59 by dmitrii          ###   ########.fr       */
+/*   Updated: 2024/09/25 23:46:26 by dmitrypopov      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -53,7 +53,7 @@ char	**ft_split(char const *s, char sep)
 	i = 0;
 	j = 0;
 	start = -1;
-	result = (char **)ft_calloc((ft_countwords(s, sep) + 1), sizeof(char *));
+	result = (char **)malloc((ft_countwords(s, sep) + 1) * sizeof(char *));
 	if (!result || !s)
 		return (NULL);
 	while (i <= ft_strlen(s))
