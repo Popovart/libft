@@ -6,7 +6,7 @@
 /*   By: dmitrii <dmitrii@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/23 15:21:09 by dmitrii           #+#    #+#             */
-/*   Updated: 2024/09/24 15:58:11 by dmitrii          ###   ########.fr       */
+/*   Updated: 2024/09/28 17:00:04 by dmitrii          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,11 +19,11 @@ char	*ft_strrchr(const char *s, int c)
 	ptr = NULL;
 	while (*s)
 	{
-		if (*s == (char)c)
+		if (*s == (unsigned char)c)
 			ptr = (char *)s;
 		s++;
 	}
-	if (c == '\0')
+	if ((unsigned char)c == '\0')
 		return ((char *)s);
 	return (ptr);
 }
